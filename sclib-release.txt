@@ -1,0 +1,4 @@
+contracts/vendor
+contracts/vendor/Anothercontract.sol
+contracts/vendor/StarknetMessaging.sol
+contracts/vendor/Mycontract.sol
