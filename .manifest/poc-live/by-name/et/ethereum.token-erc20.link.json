@@ -1,0 +1,14 @@
+{
+    "config": {
+        "name": "ethereum.token-erc20.link",
+        "version": "0.0.1",
+        "model-template": "poc__mf-template.live-diff",
+        "model-diff": "$mf.poc__ethereum.token-erc20.link.json"
+    },
+    "data": {
+        "name": "ChainLink Token",
+        "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+        "symbol": "HACK",
+        "totalSupply": "1000000000"
+    }
+}
