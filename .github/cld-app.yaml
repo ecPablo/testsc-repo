@@ -1,0 +1,12 @@
+version: 1
+uploads:
+  binaries:
+    - domain: TODO-domain
+      source:
+        type: actions-artifact
+        workflow: TODO-workflow.yml
+        platforms:
+          - goos: linux
+            goarch: amd64
+            artifact: TODO-artifact
+            binaryPath: TODO-path-inside-artifact
