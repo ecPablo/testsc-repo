@@ -1,0 +1,10 @@
+name: CLD App Webhook Probe
+run-name: CLD-PROBE-${{ github.ref_name }}-runname-suffix
+on:
+  workflow_dispatch:
+jobs:
+  probe-job:
+    name: Probe Build Binary
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "probe"
